@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="en">
+	<import>
+		<category name="wcf.acp.option">
+			<item name="wcf.acp.option.category.security.antispam.captchaeu"><![CDATA[Captcha.eu]]></item>
+			<item name="wcf.acp.option.category.security.antispam.captchaeu.description"><![CDATA[In order to use this service, obtain the REST &amp; Public-Key from <a href="https://www.captcha.eu/" class="externalURL" rel="noopener noreferrer">Captcha.eu</a>]]></item>
+			<!-- Public Key -->
+			<item name="wcf.acp.option.captchaeu_publickey"><![CDATA[Public Key]]></item>
+			<item name="wcf.acp.option.captchaeu_publickey.description"><![CDATA[Enter the Public Key you received from <a href="https://www.captcha.eu/" class="externalURL" rel="noopener noreferrer">Captcha.eu</a>]]></item>
+			<!-- REST Key -->
+			<item name="wcf.acp.option.captchaeu_restkey"><![CDATA[REST Key]]></item>
+			<item name="wcf.acp.option.captchaeu_restkey.description"><![CDATA[Enter the REST Key you received from <a href="https://www.captcha.eu/" class="externalURL" rel="noopener noreferrer">Captcha.eu</a>]]></item>
+			<!-- Captcha.eu Host -->
+			<item name="wcf.acp.option.captchaeu_host"><![CDATA[Captcha.eu Host]]></item>
+			<item name="wcf.acp.option.captchaeu_host.description"><![CDATA[<a href="https://www.captcha.eu/" class="externalURL" rel="noopener noreferrer">Captcha.eu</a> Service Host]]></item>
+		</category>
+		<category name="wcf.captcha">
+			<!-- captchaSelect - Captcha.eu -->
+			<item name="wcf.captcha.com.captchaeu.captcha"><![CDATA[CaptchaEU]]></item>
+		</category>
+		<category name="wcf.captchaeu">
+			<!-- Errors/Notices -->
+			<item name="wcf.captchaeu.error.captchaeuSolution.101"><![CDATA[E101: Captcha.eu validation failed - The supplied solution is empty]]></item>
+			<item name="wcf.captchaeu.error.captchaeuSolution.102"><![CDATA[E102: Captcha.eu validation failed - The supplied solution is invalid]]></item>
+			<item name="wcf.captchaeu.error.captchaeuSolution.302"><![CDATA[E301: Captcha.eu validation failed - The entered REST-Key is invalid]]></item>
+		</category>
+	</import>
+</language>

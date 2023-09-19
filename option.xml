@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
+	<import>
+		<categories>
+			<category name="security.antispam.captchaeu">
+				<parent>security.antispam</parent>
+			</category>
+		</categories>
+		<options>
+			<!-- Public Key -->
+			<option name="captchaeu_publickey">
+				<categoryname>security.antispam.captchaeu</categoryname>
+				<optiontype>text</optiontype>
+				<validationpattern>^[^/]*$</validationpattern>
+				<showorder>1</showorder>
+			</option>
+			<!-- REST Key -->
+			<option name="captchaeu_restkey">
+				<categoryname>security.antispam.captchaeu</categoryname>
+				<optiontype>text</optiontype>
+				<validationpattern>^[^/]*$</validationpattern>
+				<showorder>2</showorder>
+			</option>
+			<!-- Host -->
+			<option name="captchaeu_host">
+				<categoryname>security.antispam.captchaeu</categoryname>
+				<optiontype>text</optiontype>
+				<!-- <validationpattern>^[^/]*$</validationpattern> -->
+				<defaultvalue>https://www.captcha.eu</defaultvalue>
+				<showorder>3</showorder>
+			</option>
+		</options>
+	</import>
+</data>
