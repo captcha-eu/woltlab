@@ -6,8 +6,8 @@
 		<packagedescription><![CDATA[Captcha.eu - GDPR-compliant bot-protection for the WoltLab Suite™ Core]]></packagedescription>
 		<packagedescription language="de"><![CDATA[Captcha.eu - DSGVO-konformer Bot-Schutz für WoltLab Suite™ Core]]></packagedescription>
 		<packageurl><![CDATA[https://www.captcha.eu]]></packageurl>
-		<version>1.0.0</version>
-		<date>2023-09-01</date>
+		<version>1.0.1</version>
+		<date>2023-10-02</date>
 	</packageinformation>
 	<authorinformation>
 		<author><![CDATA[Captcha.eu]]></author>
