@@ -22,7 +22,7 @@
 			<!-- Errors/Notices -->
 			<item name="wcf.captchaeu.error.captchaeuSolution.101"><![CDATA[E101: Captcha.eu validation failed - The supplied solution is empty]]></item>
 			<item name="wcf.captchaeu.error.captchaeuSolution.102"><![CDATA[E102: Captcha.eu validation failed - The supplied solution is invalid]]></item>
-			<item name="wcf.captchaeu.error.captchaeuSolution.302"><![CDATA[E301: Captcha.eu validation failed - The entered REST-Key is invalid]]></item>
+			<item name="wcf.captchaeu.error.captchaeuSolution.301"><![CDATA[E301: Captcha.eu validation failed - The entered REST-Key is invalid]]></item>
 		</category>
 	</import>
 </language>
